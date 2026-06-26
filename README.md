@@ -4,38 +4,38 @@
 
 ## 题目要求交付文件
 
-以下内容均已包含在本仓库中，可直接按路径查看：
+以下内容均已包含在本仓库中，可直接点击查看：
 
-- 提交结果文件：`result.csv`
-- 特征工程代码：`build_baseline_features.py`
-- 模型训练代码：`train_lightgbm_gpu.py`
-- 运行说明：`README.md`
-- 分析报告：`analysis.md`
+- 提交结果文件：[result.csv](lgbm_runs/run_seed42_gpu_output/result.csv)
+- 特征工程代码：[build_baseline_features.py](build_baseline_features.py)
+- 模型训练代码：[train_lightgbm_gpu.py](train_lightgbm_gpu.py)
+- 运行说明：[README.md](README.md)
+- 分析报告：[analysis.md](analysis.md)
 
 题目原始要求文件路径：
 
-- `doc/task.md`
+- [doc/task.md](doc/task.md)
 
 ## 补充说明文档路径
 
-`doc/` 目录中提供了本次提交的补充说明材料：
+[`doc/`](doc/) 目录中提供了本次提交的补充说明材料：
 
-- 题目原文：`doc/task.md`
-- EDA 摘要：`doc/eda_summary.md`
-- 特征清单：`doc/feature_catalog.md`
-- 特征工程实现说明：`doc/feature_result.md`
-- GPU 环境记录：`doc/LGBM_GPU_ENV.md`
+- 题目原文：[doc/task.md](doc/task.md)
+- EDA 摘要：[doc/eda_summary.md](doc/eda_summary.md)
+- 特征清单：[doc/feature_catalog.md](doc/feature_catalog.md)
+- 特征工程实现说明：[doc/feature_result.md](doc/feature_result.md)
+- GPU 环境记录：[doc/LGBM_GPU_ENV.md](doc/LGBM_GPU_ENV.md)
 
 ## 项目结构
 
 - `data/`：原始数据文件
-- `build_baseline_features.py`：特征工程脚本
-- `eda_basic.py`：EDA 脚本
-- `train_lightgbm_gpu.py`：模型训练脚本
+- [build_baseline_features.py](build_baseline_features.py)：特征工程脚本
+- [eda_basic.py](eda_basic.py)：EDA 脚本
+- [train_lightgbm_gpu.py](train_lightgbm_gpu.py)：模型训练脚本
 - `feature/`：生成后的训练特征与测试特征
-- `lgbm_runs/run_seed42_gpu_output/`：模型输出目录
-- `analysis.md`：主分析报告
-- `doc/`：补充说明文档
+- [lgbm_runs/run_seed42_gpu_output/](lgbm_runs/run_seed42_gpu_output/)：模型输出目录
+- [analysis.md](analysis.md)：主分析报告
+- [doc/](doc/)：补充说明文档
 
 ## 环境依赖
 
@@ -46,7 +46,7 @@
 - `numpy`
 - `scikit-learn`
 
-GPU 训练环境记录见 `doc/LGBM_GPU_ENV.md`。
+GPU 训练环境记录见 [doc/LGBM_GPU_ENV.md](doc/LGBM_GPU_ENV.md)。
 
 ## 运行步骤
 
@@ -104,7 +104,7 @@ python train_lightgbm_gpu.py --device cpu
 
 ## 输出结果
 
-训练完成后，输出目录 `lgbm_runs/run_seed42_gpu_output/` 中包含：
+训练完成后，输出目录 [lgbm_runs/run_seed42_gpu_output/](lgbm_runs/run_seed42_gpu_output/) 中包含：
 
 - `result.csv`：测试集提交文件
 - `test_predictions.csv`：测试集预测结果备份
@@ -125,8 +125,8 @@ python train_lightgbm_gpu.py --device cpu
 
 最终提交文件路径：
 
-- `lgbm_runs/run_seed42_gpu_output/result.csv`
+- [lgbm_runs/run_seed42_gpu_output/result.csv](lgbm_runs/run_seed42_gpu_output/result.csv)
 
 ## 提交说明
 
-本仓库主报告为 `analysis.md`，`doc/` 目录用于补充说明 EDA、特征设计、特征工程实现细节和 GPU 环境信息。
+本仓库主报告为 [analysis.md](analysis.md)，[doc/](doc/) 目录用于补充说明 EDA、特征设计、特征工程实现细节和 GPU 环境信息。
