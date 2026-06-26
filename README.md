@@ -6,7 +6,7 @@
 
 以下内容均已包含在本仓库中，可直接点击查看：
 
-- 提交结果文件：[result.csv](lgbm_runs/run_seed42_gpu_output/result.csv)
+- 提交结果文件：[result.csv](result.csv)
 - 特征工程代码：[build_baseline_features.py](build_baseline_features.py)
 - 模型训练代码：[train_lightgbm_gpu.py](train_lightgbm_gpu.py)
 - 运行说明：[README.md](README.md)
@@ -125,7 +125,7 @@ python train_lightgbm_gpu.py --device cpu
 
 最终提交文件路径：
 
-- [lgbm_runs/run_seed42_gpu_output/result.csv](lgbm_runs/run_seed42_gpu_output/result.csv)
+- [lgbm_runs/run_seed42_gpu_output/result.csv](result.csv)
 
 ## 提交说明
 
