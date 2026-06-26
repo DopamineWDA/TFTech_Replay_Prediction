@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "device": "gpu",
+  "gpu_id": 0,
+  "n_splits": 3,
+  "cv_auc": 0.8196581497181787,
+  "cv_logloss": 0.5174437508310822,
+  "fold_metrics": [
+    {
+      "fold": 0,
+      "best_iteration": 1500,
+      "auc": 0.8195456740735793,
+      "logloss": 0.5175978215306284
+    },
+    {
+      "fold": 1,
+      "best_iteration": 1500,
+      "auc": 0.8192513646146586,
+      "logloss": 0.5178681053937576
+    },
+    {
+      "fold": 2,
+      "best_iteration": 1500,
+      "auc": 0.8201798086532761,
+      "logloss": 0.5168653255433464
+    }
+  ]
+}

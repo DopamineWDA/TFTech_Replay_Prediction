@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Local IDE / OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Raw data and generated features
+data/
+feature/
+
+# Training outputs: keep lightweight reports, ignore large artifacts
+lgbm_runs/
+!lgbm_runs/
+!lgbm_runs/run_seed42_gpu_output/
+lgbm_runs/run_seed42_gpu_output/*
+!lgbm_runs/run_seed42_gpu_output/result.csv
+!lgbm_runs/run_seed42_gpu_output/cv_metrics.json
+!lgbm_runs/run_seed42_gpu_output/feature_importance_mean.csv
+!lgbm_runs/run_seed42_gpu_output/feature_importance_folds.csv
+
+# Optional local exports
+*.log
+*.tmp
